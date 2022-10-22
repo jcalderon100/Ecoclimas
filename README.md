@@ -1,6 +1,6 @@
 # Ecoclimas - Aires Acondicionados
 
-El Proyecto 2 tiene como proposito la creacion de un sitio web que incluya HTML y CSS el uso del lenguaje de programacion javascript para mostrar los distintos equipos que el distribuidor ofrece a sus posibles clientes
+El Proyecto 2 tiene como proposito la creacion de un sitio web que incluya HTML, CSS y el uso del lenguaje de programacion Javascript, esto con la finalidad de poder mostrar los distintos equipos que el distribuidor ofrece a sus posibles clientes
 
 ## Fuentes:
 
@@ -20,7 +20,7 @@ https://jcalderon100.github.io/Ecoclimas/
 
 
 ## Screenshots
-![App Screenshot](https://drive.google.com/file/d/1ye2euslg6d_09v-8kY2NvxB5iorr2jd0/view?usp=sharing)
+![App Screenshot](https://raw.githubusercontent.com/jcalderon100/Ecoclimas/main/images/Ecoclimas%20page.jpg)
 
 
 ## 🛠 Skills
