@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOCLIMAS - Aires Acondicionados</title>
     <link rel="stylesheet" href="./estilos.css">
-    <script src="./app2.js" ></script>
+    <script src="./carrito.js" ></script>
+    
     
     
 </head>
@@ -83,9 +84,9 @@
                 </div>
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
-                    <h3 id="txtNombre" class="product-title">MS MIRAGE INVERTER 17</h3>
-                    <h3 id="price" class="product-price">$ 8,900.00</h3>
-                    <button id="1" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h3 class="product-title">MS MIRAGE INVERTER 17</h3>
+                    <h2 class="product-price">$ 8,900.00</h2>
+                    <button data-id="1" type="button" class="btn-add-cart">AGREGAR</button>
                 </div>
             </div>
             <div class="product-container">
@@ -95,8 +96,8 @@
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
                     <h3 class="product-title">MS MIRAGE LIFE 12</h3>
-                    <h3 class="product-price">$ 6,600.00</h3>
-                    <button id="2" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h2 class="product-price">$ 6,600.00</h2>
+                    <button data-id="2" type="button" class="btn-add-cart">AGREGAR</button>
 
                 </div>
             </div>
@@ -107,8 +108,8 @@
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
                     <h3 class="product-title">MS MIRAGE PLATINUM</h3>
-                    <h3 class="product-price">$ 9,500.00</h3>
-                    <button id="btnAgregrar" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h2 class="product-price">$ 9,500.00</h2>
+                    <button data-id="3" type="button" class="btn-add-cart">AGREGAR</button>
 
                 </div>
             </div>
@@ -119,8 +120,8 @@
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
                     <h3 class="product-title">PORTATIL X - ONE</h3>
-                    <h3 class="product-price">$ 7,000.00</h3>
-                    <button id="btnAgregrar" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h2 class="product-price">$ 7,000.00</h2>
+                    <button data-id="4" type="button" class="btn-add-cart">AGREGAR</button>
                 </div>
             </div>
             <div class="product-container">
@@ -130,8 +131,8 @@
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
                     <h3 id="nombre" class="product-title">MS MIRAGE UVC INVERTER</h3>
-                    <h3 id="precio" class="product-price">$ 7,200.00</h3>
-                    <button id="btnAgregrar" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h2 id="product-price" class="product-price">$ 7,200.00</h2>
+                    <button data-id="5" type="button" class="btn-add-cart">AGREGAR</button>
                 </div>
             </div>
             <div class="product-container">
@@ -141,8 +142,8 @@
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
                     <h3 class="product-title">MS MIRAGE INVERTER 17-S</h3>
-                    <h3 class="product-price">$ 7,200.00</h3>
-                    <button id="btnAgregrar" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h2 class="product-price">$ 7,200.00</h2>
+                    <button data-id="6" type="button" class="btn-add-cart">AGREGAR</button>
                 </div>
             </div>
             <div class="product-container">
@@ -152,8 +153,8 @@
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
                     <h3 class="product-title">MS MIRAGE LIFE 12 +</h3>
-                    <h3 class="product-price">$ 6,800.00</h3>
-                    <button id="btnAgregrar" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h2 class="product-price">$ 6,800.00</h2>
+                    <button data-id="7" type="button" class="btn-add-cart">AGREGAR</button>
                 </div>
             </div>
             <div class="product-container">
@@ -163,8 +164,8 @@
                 <div class="product-info-container">
                     <span class="product-seller">ecoclimas</span>
                     <h3 class="product-title">MS MIRAGE PLATINUM - X</h3>
-                    <h3 class="product-price">$ 10,500.00</h3>
-                    <button id="btnAgregrar" type="button" class="btn-add-cart">AGREGAR</button>
+                    <h2 class="product-price">$ 10,500.00</h2>
+                    <button data-id="8" type="button" class="btn-add-cart">AGREGAR</button>
                 </div>
             </div>
         </div>
@@ -178,14 +179,9 @@
 
     <section class="index_module_2" >
         <div class="cart_container">
-            <img class="logo" src="" alt="">
-            <div>
-                <img onmouseover="showCart(this)" class="cart" src="" alt="">
-                <p class="count-product">0</p>
-            </div>
-
+                      
             <div class="cart-products" id="products-id">
-                <p class="close-btn" onclick="closeBtn()">X</p>
+                
                 <h3>Mi carrito</h3>
                 <div class="card-items">
                 </div>
